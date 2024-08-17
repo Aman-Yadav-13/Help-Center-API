@@ -15,3 +15,5 @@ backend/.env
 # NPM package lock file
 frontend/package-lock.json
 backend/package-lock.json
+
+.DS_Store
