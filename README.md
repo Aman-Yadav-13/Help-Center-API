@@ -56,13 +56,6 @@ The Help Center API provides endpoints to assist users with managing help-relate
 
 ## API Endpoints
 
-### FAQ Management
-
-- **GET** `/api/faqs`: Retrieve the list of FAQs.
-- **POST** `/api/faqs`: Add a new FAQ.
-- **PUT** `/api/faqs/:id`: Update an existing FAQ.
-- **DELETE** `/api/faqs/:id`: Delete an FAQ.
-
 ### Support Requests
 
 - **GET** `/api/support-requests`: Retrieve a list of support requests.
