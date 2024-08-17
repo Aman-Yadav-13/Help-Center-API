@@ -4,13 +4,6 @@
 
 The Help Center API provides endpoints to assist users with managing help-related queries, FAQs, and support requests. This API is designed to be integrated with your application to provide support and guidance to users.
 
-## Features
-
-- **FAQ Management**: Retrieve and manage frequently asked questions.
-- **Support Requests**: Submit and track support requests.
-- **Knowledge Base**: Access articles and resources to help users find answers.
-- **Contact Support**: Direct users to contact support for additional help.
-
 ## Tech Stack
 
 - **Backend**: Node.js, Express.js
