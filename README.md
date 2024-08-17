@@ -51,9 +51,9 @@ The Help Center API provides endpoints to assist users with managing help-relate
 
 ### Support Requests
 
-- **GET** `/api/support-requests`: Retrieve a list of support requests.
-- **POST** `/api/support-requests`: Submit a new support request.
-- **GET** `/api/support-requests/:id`: Retrieve details of a specific support request.
+- **GET** `/cards`: Retrieve a list of support requests.
+- **POST** `/cards`: Submit a new support request.
+- **GET** `/cards/title`: Retrieve details of a specific support request.
 
 ### Contact Support
 
