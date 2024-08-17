@@ -55,10 +55,6 @@ The Help Center API provides endpoints to assist users with managing help-relate
 - **POST** `/cards`: Submit a new support request.
 - **GET** `/cards/title`: Retrieve details of a specific support request.
 
-### Contact Support
-
-- **POST** `/api/contact`: Contact support directly.
-
 ## Deployment
 
 - **API**: Deployed fontend on Vercel and backend on Render. 
