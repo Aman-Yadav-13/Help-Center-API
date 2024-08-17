@@ -8,7 +8,7 @@ const Service = require('./model/service'); // Import the Service model
 
 // Configure CORS middleware to allow requests from specified origins
 app.use(cors({
-    origin: [process.env.localURL], // Allowed origin(s)
+    origin: [process.env.localURL, process.env.VERCEL_URL], // Allowed origin(s)
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Allowed HTTP methods
     allowedHeaders: 'Content-Type, Authorization' // Allowed headers
 }));
